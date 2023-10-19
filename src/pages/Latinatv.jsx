@@ -45,7 +45,7 @@ const Latinatv = () =>{
 						RadioLatina
 						<br></br>
 						(Audio) HLS<br></br><br></br>
-						<ReactPlayer controls muted={0} playing={0} width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8' />					
+						<ReactPlayer controls muted playing width="264" height="198"   url='https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8' />					
                     </Titulo>
 				</Senales>
                 <Senales>
