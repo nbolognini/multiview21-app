@@ -1,9 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-import { Titulo } from "./estilosJS/Titulo";
-import { Contenedor } from "./estilosJS/Contenedor";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
-import { Senales } from "./estilosJS/Senales";
 import { Contenedor_Senal } from './estilosJS/Contenedor_Senal';
 
 const Tlcpreview = () =>{

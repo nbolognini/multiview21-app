@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-
 import { Titulo } from "./estilosJS/Titulo";
 import { Contenedor } from "./estilosJS/Contenedor";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
-import { Senales } from "./estilosJS/Senales";
 import { Senal_telemax } from './estilosJS/Senal_telemax';
 
 const Telemax = () =>{

@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
 
 import { FaRadio } from "react-icons/fa6";
-import { PiTelevisionSimpleBold, PiTelevisionBold, PiTelevisionDuotone, PiTelevisionSimpleDuotone, PiTelevisionFill, PiTelevisionSimpleFill, PiTextTThin } from "react-icons/pi";
+import { PiTextTThin } from "react-icons/pi";
 import { SiYoutubemusic } from "react-icons/si";
 import { BiSolidLandscape } from "react-icons/bi";
 import { FcFilmReel } from "react-icons/fc";
 import {
     FaTh,
     FaBars,
-    FaUserAlt,
-    FaRegChartBar,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaBuffer,
-    FaCreativeCommonsNd,
     FaTv,
-    FaThList
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
