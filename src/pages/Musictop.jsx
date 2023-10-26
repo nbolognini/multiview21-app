@@ -22,7 +22,7 @@ const Musictop = () =>{
                     <Titulo>
 						MusicTop
 						<br></br>
-						HLS (nebula)<br></br><br></br>
+						HLS (wowza)<br></br><br></br>
                         <ReactPlayer controls muted playing width="264" height="198"   url='http://live-edge01.telecentro.net.ar/live/smil:musictop.smil/playlist.m3u8' />					
                     </Titulo>
 				</Senal_musictop>
