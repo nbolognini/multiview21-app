@@ -9,6 +9,7 @@ import Latinatv from './pages/Latinatv';
 import Musictop from './pages/Musictop';
 import Tierramia from './pages/Tierramia';
 import Tlcpreview from './pages/Tlcpreview';
+import Cuatrok from './pages/Cuatrok.jsx';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/musictop" element={<Musictop />} />
           <Route path="/tierramia" element={<Tierramia />} />
           <Route path="/tlcpreview" element={<Tlcpreview />} />
+          <Route path="/cuatrok" element={<Cuatrok />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </Sidebar>

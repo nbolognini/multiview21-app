@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { PiNumberFourFill } from "react-icons/pi";
+import { TbSquareLetterP } from "react-icons/tb";
 import { FaRadio } from "react-icons/fa6";
 import { PiTextTThin } from "react-icons/pi";
 import { SiYoutubemusic } from "react-icons/si";
@@ -49,7 +50,12 @@ const Sidebar = ({children}) => {
         {
             path:"/tlcpreview",
             name:"Tlcpreview",
-            icon:<FcFilmReel/>
+            icon:<TbSquareLetterP/>
+        },
+        {
+            path:"Cuatrok",
+            name:"Telecentro 4k",
+            icon:<PiNumberFourFill/>
         }
     ]
     return (
