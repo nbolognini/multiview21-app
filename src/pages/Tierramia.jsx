@@ -4,10 +4,11 @@ import { Titulo } from "./estilosJS/Titulo";
 import { Contenedor } from "./estilosJS/Contenedor";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
 import { Senal_tierramia } from './estilosJS/Senal_tierramia';
+import { ContenedorM } from './estilosJS/ContenedorM';
 
 const Tierramia = () =>{
     return <div>  
-		<Contenedor>	
+		<ContenedorM>	
 			<Contenedor_Senales>
 				<Senal_tierramia>
 					<Titulo>
@@ -26,7 +27,7 @@ const Tierramia = () =>{
                     </Titulo>
 				</Senal_tierramia>
 			</Contenedor_Senales>
-		</Contenedor>	
+		</ContenedorM>	
     </div>
    }   
    export default Tierramia;

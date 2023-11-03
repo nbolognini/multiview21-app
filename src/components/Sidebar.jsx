@@ -49,7 +49,7 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/tlcpreview",
-            name:"Tlcpreview",
+            name:"TlcPreview",
             icon:<TbSquareLetterP/>
         },
         {

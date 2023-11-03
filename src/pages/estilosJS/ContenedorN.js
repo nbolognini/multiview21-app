@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export const Contenedor = styled.div`
-	background: #0a0a0a;
+export const ContenedorN = styled.div`
+	background: #0000;
     width: 100%;
 	
 	max-width: 1200px;

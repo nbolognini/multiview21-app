@@ -4,10 +4,11 @@ import { Titulo } from "./estilosJS/Titulo";
 import { Contenedor } from "./estilosJS/Contenedor";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
 import { Senal_musictop } from './estilosJS/Senal_musictop';
+import { ContenedorM } from "./estilosJS/ContenedorM";
 
 const Musictop = () =>{
     return <div>  
-		<Contenedor>	
+		<ContenedorM>	
 			<Contenedor_Senales>
 				<Senal_musictop>
                     <Titulo>
@@ -26,7 +27,7 @@ const Musictop = () =>{
                     </Titulo>
 				</Senal_musictop>
 			</Contenedor_Senales>
-		</Contenedor>	
+		</ContenedorM>	
     </div>
    }   
    export default Musictop;

@@ -3,12 +3,13 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import { Titulo } from "./estilosJS/Titulo";
 import { Contenedor } from "./estilosJS/Contenedor";
+import { ContenedorE } from "./estilosJS/ContenedorE";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
 import { Senal_canal26 } from './estilosJS/Senal_canal26';
 
 const Canal26 = () =>{
 		return <div>  
-		<Contenedor>	
+		<ContenedorE>	
 			<Contenedor_Senales>
 				<Senal_canal26>
                     <Titulo>
@@ -17,6 +18,7 @@ const Canal26 = () =>{
 						<iframe width="264" height="198" src="https://www.youtube.com/embed/live_stream?channel=UCrpMfcQNog595v5gAS-oUsQ&amp;autoplay=1&amp;mute=1&amp;enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				    </Titulo>
 				</Senal_canal26>
+				
                 <Senal_canal26>
 					<Titulo>
 						Canal26<br></br>
@@ -39,7 +41,7 @@ const Canal26 = () =>{
                     </Titulo>
 				</Senal_canal26>
 			</Contenedor_Senales>
-		</Contenedor>
+		</ContenedorE>
     </div>
    }   
    export default Canal26;

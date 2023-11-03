@@ -5,6 +5,7 @@
 }
 .container{
     display:flex;
+    
 }
 main{
     width: 100%;
@@ -13,7 +14,7 @@ main{
 }
 .sidebar{
     
-    background: #bd0303;
+    background: #4b0202;
     background-image: url("./pages/img/img4.png");
     color: #fff;
     height: 100vh;
@@ -33,6 +34,11 @@ main{
     font-size: 25px;
     margin-left: 50px;
 }
+
+body {
+    background-color: black;
+  }
+
 .link{
     display: flex;
     color: #fff;

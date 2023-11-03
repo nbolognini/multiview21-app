@@ -3,13 +3,14 @@ import ReactPlayer from 'react-player'
 import { Titulo } from "./estilosJS/Titulo";
 import { Contenedor } from "./estilosJS/Contenedor";
 import { Contenedor_Senales } from "./estilosJS/Contenedor_Senales";
-import { Senales } from "./estilosJS/Senales";
 import { Senal_latinatv } from './estilosJS/Senal_latinatv';
 import { Senal_vacio } from './estilosJS/Senal_vacio';
+import { Senales } from "./estilosJS/Senales";
+import { ContenedorT } from './estilosJS/ContenedorT';
 
 const Latinatv = () =>{
     return <div>  
-		<Contenedor>	
+		<ContenedorT>	
 			<Contenedor_Senales>
 				<Senal_latinatv>
 					<Titulo>
@@ -58,7 +59,7 @@ const Latinatv = () =>{
                         RadioLatina
 						<br></br>
 						IceCast (Baja calidad)
-						<iframe src="http://streaming.latina101.com.ar:8080/RadioLatina" width="261" height="188"></iframe>
+						<iframe src="https://streaming.latina101.com.ar:8080/RadioLatina" width="261" height="188"></iframe>
 					</Titulo>
 				</Senales>
 				<Senales>
@@ -66,11 +67,11 @@ const Latinatv = () =>{
                         RadioLatina
 						<br></br>
 						IceCast (Alta calidad)
-						<iframe src="http://streaming.latina101.com.ar:9000/Repetidoras" width="261" height="188"></iframe>
+						<iframe src="https://streaming.latina101.com.ar:9000/Repetidoras" width="261" height="188"></iframe>
 					</Titulo>
 				</Senales>
 			</Contenedor_Senales>
-		</Contenedor>	
+		</ContenedorT>	
     </div>
    }   
    export default Latinatv;

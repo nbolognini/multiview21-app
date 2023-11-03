@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-export const Contenedor = styled.div`
+export const ContenedorM = styled.div`
 	background: #0a0a0a;
     width: 100%;
 	
-	max-width: 1200px;
+	max-width: 600px;
 
 	padding: 10px 10px;
 	/* Grid*/
